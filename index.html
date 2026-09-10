@@ -1,45 +1,153 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Karthik - Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karthik | Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Karthik<span>.</span></div>
+
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#project">Project</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
     <header>
-        <h1>Hi, I'm Karthik</h1>
-        <p>Computer Science and Engineering Student</p>
+        <div class="hero-content">
+            <p class="hello">WELCOME TO MY PORTFOLIO 👋</p>
+
+            <h1>Hi, I'm <span>Karthik</span></h1>
+
+            <h2>Computer Science & Engineering Student</h2>
+
+            <p class="hero-text">
+                Passionate about technology, AI and building new things.
+                I'm constantly learning and improving my technical skills.
+            </p>
+
+            <div class="buttons">
+                <a href="#project" class="btn primary">View My Project</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
+        </div>
     </header>
 
-    <section>
-        <h2>About Me</h2>
-        <p>
-            I am Karthik, a Computer Science and Engineering (CSE) student.
-            I am interested in technology and learning new tools.
-        </p>
+    <!-- About -->
+    <section id="about">
+        <div class="section-title">
+            <span>01</span>
+            <h2>About Me</h2>
+        </div>
+
+        <div class="card">
+            <p>
+                I am <strong>Karthik</strong>, a Computer Science and Engineering
+                student who is interested in technology, programming and
+                artificial intelligence.
+            </p>
+
+            <p>
+                I enjoy exploring new tools, learning new concepts and
+                developing projects that help me improve my technical skills.
+            </p>
+        </div>
     </section>
 
-    <section>
-        <h2>My Skills</h2>
-        <ul>
-            <li>AI Tools</li>
-        </ul>
+    <!-- Skills -->
+    <section id="skills">
+        <div class="section-title">
+            <span>02</span>
+            <h2>My Skills</h2>
+        </div>
+
+        <div class="skills-container">
+            <div class="skill-card">
+                <div class="icon">🤖</div>
+                <h3>AI Tools</h3>
+                <p>Exploring modern AI tools and technologies.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="icon">💻</div>
+                <h3>Programming</h3>
+                <p>Developing programming and problem-solving skills.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="icon">🌐</div>
+                <h3>Web Development</h3>
+                <p>Learning how to create modern websites.</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="icon">🚀</div>
+                <h3>Learning</h3>
+                <p>Always interested in learning new technologies.</p>
+            </div>
+        </div>
     </section>
 
-    <section>
-        <h2>My Project</h2>
-        <h3>CSE Project</h3>
-        <p>
-            This is my CSE project. I am working on developing my
-            technical and programming skills through this project.
-        </p>
+    <!-- Project -->
+    <section id="project">
+        <div class="section-title">
+            <span>03</span>
+            <h2>My Project</h2>
+        </div>
+
+        <div class="project-card">
+            <div class="project-number">01</div>
+
+            <div>
+                <h3>CSE Project</h3>
+
+                <p>
+                    This is my CSE project. I am working on developing my
+                    technical and programming skills through this project.
+                </p>
+
+                <div class="tags">
+                    <span>Technology</span>
+                    <span>Programming</span>
+                    <span>AI</span>
+                </div>
+
+                <button class="project-btn">View Project →</button>
+            </div>
+        </div>
     </section>
 
-    <section>
-        <h2>Contact</h2>
-        <p>I'm always interested in learning and creating new projects.</p>
+    <!-- Contact -->
+    <section id="contact">
+        <div class="contact-box">
+            <p class="hello">LET'S CONNECT</p>
+
+            <h2>Have an idea?</h2>
+
+            <p>
+                I'm always interested in learning, creating and working
+                on new projects.
+            </p>
+
+            <a href="mailto:yourmail@example.com" class="btn primary">
+                Get In Touch
+            </a>
+        </div>
     </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Karthik. Built with HTML & CSS.</p>
+    </footer>
 
 </body>
 </html>
